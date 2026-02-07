@@ -10679,7 +10679,7 @@
 		)
 		(uuid "6f986315-b590-4dfc-94c5-2f596b847fc0")
 	)
-	(label "4K{slash}16K"
+	(label "4K{slash}~{16K}"
 		(at 101.6 209.55 0)
 		(effects
 			(font

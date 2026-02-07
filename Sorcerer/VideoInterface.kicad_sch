@@ -13443,7 +13443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VIDEO"
+		(property "Value" "AV-103B"
 			(at 401.32 65.0631 0)
 			(effects
 				(font

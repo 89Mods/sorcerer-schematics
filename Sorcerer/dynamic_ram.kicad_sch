@@ -11073,6 +11073,28 @@
 			)
 		)
 	)
+	(global_label "~{DRAS1}"
+		(shape input)
+		(at 166.37 195.58 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1b3f4be5-585e-47f0-87bf-ce76eb773434")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 166.37 186.5472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DRAM_A1"
 		(shape input)
 		(at 198.12 99.06 180)
@@ -12054,6 +12076,28 @@
 		(uuid "4e71f2a6-789b-4da9-98a9-80255f72b820")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 285.5467 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{DRAS2}"
+		(shape input)
+		(at 166.37 207.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4fa9e50a-00d0-4040-8984-681ea6a13f9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.3372 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)

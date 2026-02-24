@@ -14792,7 +14792,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Parallel Port"
+		(property "Value" "Serial Port"
 			(at 152.4 95.2499 0)
 			(effects
 				(font

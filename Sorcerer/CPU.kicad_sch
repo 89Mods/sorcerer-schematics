@@ -5813,6 +5813,16 @@
 		)
 		(uuid "a616fa4c-4072-491a-b489-6b32aa33c433")
 	)
+	(text "I think? Maybe?"
+		(exclude_from_sim no)
+		(at 113.03 168.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f6559410-2edf-4c70-9771-5e103bed7497")
+	)
 	(junction
 		(at 298.45 232.41)
 		(diameter 0)
@@ -8951,6 +8961,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 171.45) (xy 116.84 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4c5594f-ce99-4018-81f4-f1649d5d2cc3")
+	)
+	(wire
+		(pts
 			(xy 335.28 173.99) (xy 342.9 173.99)
 		)
 		(stroke
@@ -9717,6 +9737,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ZG"
+		(shape input)
+		(at 113.03 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0e03ba48-83a7-479e-a435-6d61698ed896")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.5653 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -14391,6 +14433,71 @@
 				(path "/c0b4c8b3-e049-49e4-8778-5b467d64f08a/8b3d44c6-7dd7-4718-9c09-92a848f99817"
 					(reference "UD10")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8adbfcb5-271f-4240-aa6c-6cd60bb40c5c")
+		(property "Reference" "#PWR0294"
+			(at 116.84 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dd371450-f2f3-4feb-92b5-0f3dc949b01f")
+		)
+		(instances
+			(project "Sorcerer"
+				(path "/c0b4c8b3-e049-49e4-8778-5b467d64f08a/8b3d44c6-7dd7-4718-9c09-92a848f99817"
+					(reference "#PWR0294")
+					(unit 1)
 				)
 			)
 		)
